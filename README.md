@@ -4,9 +4,21 @@
 
 This project is entry project for ruby, which is built to sort arrays with the bubble sort methodology. And it consists of two types of methods, first - sorts the array with ruby method, second - sorts the array with the method which has yield and block.
 
+## Bubble Sort Algorithm: Steps on how it works:
+In an unsorted array of elements, start with the first two elements and sort them in ascending order. (Compare the element to check which one is greater).
+
+- Compare the second and third element to check which one is greater, and sort them in ascending order.
+- Compare the third and fourth element to check which one is greater, and sort them in ascending order.
+- Compare the fourth and fifth element to check which one is greater, and sort them in ascending order.
+- Repeat steps 1–5 until no more swaps are required.
+
+There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki/Bubble_sort) that's worth taking a look at.
+
+<img src="http://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" class="lesson-content__small-image" markdown="1">
+
 ## Built With
 
-![Ruby]<code><img height="20" src="https://www.ruby-lang.org/images/header-ruby-logo.png"></code>
+<code><img height="20" src="https://www.ruby-lang.org/images/header-ruby-logo.png"></code> Ruby
 
 
 ## Getting Started
@@ -40,4 +52,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 Copyright 2021 Zulfizar Abdumurodova
-- [License](https://docs.google.com/document/d/1HjAQWTxqQMqipmBqn1mBq5bdqntuSvXa/edit) for this project.
+- [MIT](https://github.com/AbdumurodovaZulfizar/bubble-sort/blob/method/LICENSE.md) for this project.
