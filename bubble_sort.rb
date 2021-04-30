@@ -26,10 +26,3 @@ def bubble_sort_by(array)
   array
 end
 
-# Check example
-my_array = [4, 3, 78, 2, 0, 2]
-arr = bubble_sort_by(%w[hi hello hey]) do |left, right|
-  left.length - right.length
-end
-print bubble_sort(my_array)
-print arr
