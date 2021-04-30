@@ -1,11 +1,11 @@
 def bubble_sort(array)
-    i=0
+  i = 0
     while i < array.length
-        if array[i]>array[i+1]
+      while array[i] > array[i + 1]
             array[i], array[i + 1] = array[i + 1], array[i]
         end
     end
-    return array
+    array
 end
 
-print bubble_sort([1,4,2,3,8,5])
+print bubble_sort([1, 4, 2, 3, 8, 5])
