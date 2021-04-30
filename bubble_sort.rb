@@ -1,10 +1,14 @@
 def bubble_sort(array)
   i = 0
+  j = 0
     while i < array.length
-      if array[i] > array[i + 1]
-        array[i], array[i + 1] = array[i + 1], array[i]
+      while j < array.length - i - 1
+        if array[index2] > array[index2 + 1]
+            array[index2], array[index2 + 1] = array[index2 + 1], array[index2]
+        end
+        j += 1
       end
-        i+=1
+      i += 1
     end
     return array
 end
