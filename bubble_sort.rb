@@ -3,19 +3,30 @@ def bubble_sort(array)
     while unsorted
       i = 0
       unsorted = false
-      while i < (array.length - 1)
-        if array[i] > array[i + 1]
-          array[i], array[i + 1] = array[i + 1], array[i]
-          unsorted = true
-        end
+      while i < (array.length - 1) 
+          array[i], array[i + 1] = array[i + 1], array[i], unsorted = true if array[i] > array[i + 1]
         i += 1
       end
     end
     return array
   end
 
-def bubble_sort_by(array)
-    
+  def bubble_sort_by(array)
+    unsorted = true
+    while unsorted
+      i = 0
+      unsorted = false
+      while i < (array.length - 1)      
+          array[i], array[i + 1] = array[i + 1], array[i], unsorted = true if yield(array[i], array[i + 1]).positive?
+        i += 1
+      end
+    end
+    return array
 end
+my_array = [4,3,78,2,0,2]
+bubble_sort_by(my_array) do |left, right|
+    left.size - right.size
+  end
 
+  print bubble_sort(my_array)
 
