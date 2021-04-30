@@ -2,7 +2,7 @@
 
 # Bobble Sort
 
-This project is entry project for ruby, which is built to sort arrays with the bubble sort methodology. And it consists of two types of methods, first - sorts the array with ruby method, second - sorts the array with the method which has yield and block.
+This project is entry project for ruby, which has been built to sort arrays with the bubble sort methodology. And it consists of two types of methods, first - sorts the array with ruby method, second - sorts the array with the method which has yield and block.
 
 ## Bubble Sort Algorithm: Steps on how it works:
 In an unsorted array of elements, start with the first two elements and sort them in ascending order. (Compare the element to check which one is greater).
@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple steps.
 
 - `git clone https://github.com/AbdumurodovaZulfizar/bubble-sort.git`
 - `cd bubble-sort`
-- Open repository file on device
+- Open this repository on your device
 
 ## Authors
 
@@ -52,4 +52,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 Copyright 2021 Zulfizar Abdumurodova
-- [MIT](https://github.com/AbdumurodovaZulfizar/bubble-sort/blob/method/LICENSE.md) for this project.
+- [MIT](https://github.com/AbdumurodovaZulfizar/bubble-sort/blob/method/LICENSE.md) license for this project.
