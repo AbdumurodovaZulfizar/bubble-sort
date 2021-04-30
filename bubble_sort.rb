@@ -1,16 +1,21 @@
 def bubble_sort(array)
-  i = 0
-  j = 0
-    while i < array.length
-      while j < array.length - i - 1
-        if array[index2] > array[index2 + 1]
-            array[index2], array[index2 + 1] = array[index2 + 1], array[index2]
+    unsorted = true
+    while unsorted
+      i = 0
+      unsorted = false
+      while i < (array.length - 1)
+        if array[i] > array[i + 1]
+          array[i], array[i + 1] = array[i + 1], array[i]
+          unsorted = true
         end
-        j += 1
+        i += 1
       end
-      i += 1
     end
     return array
+  end
+
+def bubble_sort_by(array)
+    
 end
 
-print bubble_sort([1, 4, 2, 3, 8, 5])
+
